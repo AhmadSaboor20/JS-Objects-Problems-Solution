@@ -164,13 +164,18 @@ let x= [6,4,0, 3,-2,1]
 for (val in x) {
     for (val in x) {
         if (x[val] > x[val + 1]) {
-            let temp = x[val]
-            x[val] = x[val + 1]
-            x[val + 1] = temp
+            let temp = x[val];
+            x[val] = x[val + 1];
+            x[val + 1] = temp;
+
+
         }
-        
-    }
+
+        }
+           
 }
+
+
 
 console.log(x)
 
