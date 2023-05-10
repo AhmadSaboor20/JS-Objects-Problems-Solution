@@ -167,16 +167,9 @@ for (val in x) {
             let temp = x[val];
             x[val] = x[val + 1];
             x[val + 1] = temp;
-
-
         }
-
-        }
-           
+        }          
 }
-
-
-
 console.log(x)
 
 
