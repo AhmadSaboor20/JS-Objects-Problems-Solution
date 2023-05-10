@@ -311,10 +311,3 @@ console.log(x)
         age: 32,
         gender: "male"
     }
-    function newFunction() {
-        for (val in x) {
-            if (x[val] < x[val + 1]) {
-            }
-        }
-    }
-
