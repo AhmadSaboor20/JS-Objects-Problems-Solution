@@ -295,12 +295,108 @@ console.log(x)
     // // 12. Write a JavaScript function to parse an URL.
 
 
-    // //  13. Write a JavaScript function to retrieve all the names of object's own and inherited properties.
+    //  13. Write a JavaScript function to retrieve all the names of object's own and inherited properties.
+        // //    }];
 
-    // //  14. Write a JavaScript function to retrieve all the values of an object's properties.
+    // // Expected Output:
+
+
+
+    // // [[object Object] {
+
+    // //   author: "Walter Isaacson",
+
+    // //   libraryID: 4264,
+
+    // //   title: "Steve Jobs"
+
+    // // }, [object Object] {
+
+    // //   author: "Suzanne Collins",
+
+    // //   libraryID: 3245,
+
+    // //   title: "Mockingjay: The Final Book of The Hunger Games"
+
+    // // }, [object Object] {
+
+    // //   author: "The Road Ahead",
+
+    // //   libraryID: 1254,
+
+    // //   title: "Bill Gates"
+
+    // // }]
+
+
+
+    // //  11. Write a JavaScript function to print all the methods in an JavaScript object.
+
+    // // Test Data :
+
+    // // console.log(all_properties(Array));
+
+    // // ["length", "name", "arguments", "caller", "prototype", "isArray", "observe", "unobserve"]
+
+
+
+    // // 12. Write a JavaScript function to parse an URL.
+
+
+    //  13. Write a JavaScript function to retrieve all the names of object's own and inherited properties.
+        //  13. Write a JavaScript function to retrieve all the names of object's own and inherited properties.
+        // //    }];
+
+    // // Expected Output:
+
+
+
+    // // [[object Object] {
+
+    // //   author: "Walter Isaacson",
+
+    // //   libraryID: 4264,
+
+    // //   title: "Steve Jobs"
+
+    // // }, [object Object] {
+
+    // //   author: "Suzanne Collins",
+
+    // //   libraryID: 3245,
+
+    // //   title: "Mockingjay: The Final Book of The Hunger Games"
+
+    // // }, [object Object] {
+
+    // //   author: "The Road Ahead",
+
+    // //   libraryID: 1254,
+
+    // //   title: "Bill Gates"
+
+    // // }]
+
+
+
+    // //  11. Write a JavaScript function to print all the methods in an JavaScript object.
+
+    // // Test Data :
+
+    // // console.log(all_properties(Array));
+
+    // // ["length", "name", "arguments", "caller", "prototype", "isArray", "observe", "unobserve"]
+
+
+
+     // 12. Write a JavaScript function to parse an URL.
+
+
+    //  13. Write a JavaScript function to retrieve all the names of object's own and inherited properties. 
+
+ //  14. Write a JavaScript function to retrieve all the values of an object's properties.
 
     //    15. Write a JavaScript function to convert an object into a list of `[key, value]` pairs.
-
         
 
     // //  16. Write a JavaScript function to get a copy of the object where the keys have become the values and the values the keys.
@@ -311,3 +407,4 @@ console.log(x)
         age: 32,
         gender: "male"
     }
+
