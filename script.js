@@ -389,19 +389,19 @@ console.log(x)
 
 
 
-     // 12. Write a JavaScript function to parse an URL.
+// 12. Write a JavaScript function to parse an URL.
 
 
-    //  13. Write a JavaScript function to retrieve all the names of object's own and inherited properties. 
+//  13. Write a JavaScript function to retrieve all the names of object's own and inherited properties. 
 
- //  14. Write a JavaScript function to retrieve all the values of an object's properties.
+//  14. Write a JavaScript function to retrieve all the values of an object's properties.
 
-    //    15. Write a JavaScript function to convert an object into a list of `[key, value]` pairs.
+//    15. Write a JavaScript function to convert an object into a list of `[key, value]` pairs.
         
 
-    // //  16. Write a JavaScript function to get a copy of the object where the keys have become the values and the values the keys.
+//  16. Write a JavaScript function to get a copy of the object where the keys have become the values and the values the keys.
 
-    //  17. Write a JavaScript function to check whether an object contains given property.
+//  17. Write a JavaScript function to check whether an object contains given property.
     let ahmad = {
         name: "ali",
         age: 32,
