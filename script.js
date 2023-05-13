@@ -158,72 +158,84 @@
 
 // // // Note : Bubble sort is a simple sorting algorithm that works by repeatedly stepping through the list to be sorted,
 
-// let x= [6,4,0, 3,-2,1]
+let x= [6,4,0, 3,-2,1]
 
 // // // Expected Output : [-2, 0, 1, 3, 4, 6]
-// for (val in x) {
-//     for (val in x) {
-//         if (x[val] > x[val + 1]) {
-//             let temp = x[val];
-//             x[val] = x[val + 1];
-//             x[val + 1] = temp;
-//         }
-//         }
-// }
-// console.log(x)
-
-
-
-
-
-// // // 7. Write a JavaScript program which returns a subset of a string.
-
-// // // Sample Data: dog
-
-// // // Expected Output: ["d", "do", "dog", "o", "og", "g"]
-
-
-
-    // 8. Write a JavaScript program to create a Clock.
-
-    // Note: The output will come every second.
-
-    // Expected Console Output :
-
-    // "14:37:42"
-
-    // "14:37:43"
-
-    // "14:37:44"
-
-    // "14:37:45"
-
-    // "14:37:46"
-
-    // "14:37:47"
-
-function clock() {
-  var date = new Date();
-  var hours = date.getHours();
-  var minutes = date.getMinutes();
-  var seconds = date.getSeconds();
-  
-  // Add leading zeros to minutes and seconds
-  if (minutes < 10) {
-    minutes = '0' + minutes;
-  }
-  if (seconds < 10) {
-    seconds = '0' + seconds;
-  }
-  
-  var time = hours + ':' + minutes + ':' + seconds;
-  console.log(time);
-  
-  // Call the clock function again in 1 second
-  setTimeout(clock, 1000);
+function bubbleSortAlgo(x) {
+  let swapped;
+  do {
+    swapped = false;
+    for (let i = 0; i < x.length - 1; i++) {
+      if (x[i] > x[i + 1]) {
+        [x[i], x[i + 1]] = [x[i + 1], x[i]];
+        swapped = true;
+      }
+    }
+  } while (swapped);
+  return x;
 }
+console.log(bubbleSortAlgo(x));
 
-clock();
+
+
+
+// // 7. Write a JavaScript program which returns a subset of a string.
+
+// // Sample Data: dog
+
+// // Expected Output: ["d", "do", "dog", "o", "og", "g"]
+
+// function getParts(str) {
+//   let parts = [];
+//   for (let i = 0; i < str.length; i++) {
+//     for (let j = i + 1; j <= str.length; j++) {
+//       parts.push(str.slice(i, j));
+//     }
+//   }
+//   return parts;
+// }
+// console.log(getParts("dog"));
+// console.log(getParts("tiger"));
+
+
+//     // 8. Write a JavaScript program to create a Clock.
+
+//     // Note: The output will come every second.
+
+//     // Expected Console Output :
+
+//     // "14:37:42"
+
+//     // "14:37:43"
+
+//     // "14:37:44"
+
+//     // "14:37:45"
+
+//     // "14:37:46"
+
+//     // "14:37:47"
+
+// function clock() {
+//   var date = new Date();
+//   var hours = date.getHours();
+//   var minutes = date.getMinutes();
+//   var seconds = date.getSeconds();
+  
+//   if (minutes < 10) {
+//     minutes = '0' + minutes;
+//   }
+//   if (seconds < 10) {
+//     seconds = '0' + seconds;
+//   }
+  
+//   var time = hours + ':' + minutes + ':' + seconds;
+//   console.log(time);
+  
+  // setTimeout(clock, 1000);
+// }
+
+// clock();
 
 
 
